@@ -1010,7 +1010,7 @@ end
 
 --- @param config LeosConfig?
 Leos.setup = function(config)
-  Leos.config = vim.tbl_extend("force", Neofusion.config, config or {})
+  Leos.config = vim.tbl_extend("force", Leos.config, config or {})
 end
 
 -- load function
